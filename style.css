@@ -233,7 +233,7 @@ body{
 
 .worker-card{
     background: #fff;
-    border: o.5px solid #e8d5b5;
+    border: 0.5px solid #e8d5b5;
     border-radius: 16px;
     padding: 18px 16px;
     cursor: pointer;
@@ -317,4 +317,43 @@ body{
     font-size: 12px;
     color: #9a7a50;
     margin-bottom: 10px;
+}
+
+.worker-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    color: #6b5a40;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C47B0A;
+}
+
+.worker-card button {
+    width: 100%;
+    margin-top: 12px;
+    background: #FFF8ED;
+    border: 1px solid #F5A623;
+    color: #854F0B;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.worker-card button:hover {
+    background: #f5a623;
+    color: #412402;
 }
