@@ -16,8 +16,9 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     position: relative;
+    padding: 8px 18px;
 }
 
 .logo {
@@ -70,3 +71,5 @@ body{
     font-weight: 600;
     transform: translateY(5px);
 }
+
+
