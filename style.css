@@ -9,7 +9,9 @@ html{
 }
 
 body{
-    background-color: #faebd7;
+    font-family: 'Plus Jakarta Sans', 'DM Sans', Inter, sans-serif;
+    background: #FDF3E7;
+    color: #1a1207;
 }
 
 .navbar{
@@ -61,7 +63,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 0 8px;
-    color: #000000;
+    color: #412402;
     transition: 0.3s;
 }
 
@@ -73,3 +75,39 @@ body{
 }
 
 
+.hero{
+    padding: 56px 32px 40px;
+    text-align: center;
+}
+
+.hero-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f5a624;
+    color: #412402;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: auto auto 20px;
+    max-width: 590px;
+}
+
+.hero h1 span {
+    color: #C47B0A;
+}
+
+.hero p{
+    font-size: 16px;
+    color: #6b5a40;
+    max-width: 530px;
+    margin: auto auto 32px;
+}
