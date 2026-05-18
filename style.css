@@ -25,6 +25,7 @@ body{
 }
 
 .logo {
+    margin-top: 6px;
   position: absolute;
   left: 0;
   display: flex;
@@ -148,6 +149,45 @@ body{
     align-items: center;
     gap: 6px;
 }
+
+
+
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid #e8d5b5;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-n {
+    font-size: 22px;
+    font-weight: 500;
+    color: #C47B0A;
+}
+
+.stat-l {
+    font-size: 12px;
+    color: #9a7a50;
+    margin-top: 2px;
+}
+
+.stat-div {
+    width: 1.5px;
+    height: 30px;
+    background: #e8d5b5;
+}
+
 
 
 
