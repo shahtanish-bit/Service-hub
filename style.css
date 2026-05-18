@@ -589,3 +589,102 @@ body{
     background: #ffffff0d;
     transition: 0.32s ease-out;
 }
+
+
+
+
+
+.footer {
+    background: #2c1e3e;
+    padding: 28px 32px;
+}
+
+.frow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.fbrand {
+    max-width: 220px;
+}
+
+.fbrand-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #e8d5b5;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fbrand p {
+    font-size: 12px;
+    color: #9a7050;
+    line-height: 1.6;
+}
+
+.fcol h4 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #9a7050;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.fcol a {
+    display: block;
+    font-size: 13px;
+    color: #c8a870;
+    margin-bottom: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fbot {
+    border-top: 0.5px solid #3d2d55;
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fcopy {
+    font-size: 12px;
+    color: #6b5040;
+}
+
+.fsocials {
+    display: flex;
+    gap: 8px;
+}
+
+.flnk{
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.flnk a {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #9a7050;
+    text-decoration: none;
+    background: #ffffff0d;
+    transition: 0.32s ease-out;
+}
