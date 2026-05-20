@@ -13,3 +13,81 @@ body{
     background: #FDF3E7;
     color: #1a1207;
 }
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    padding: 8px 18px 15px;
+    border-bottom: 2.5px solid #e8d5b5;
+}
+
+.logo{
+    margin-top: 6px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
+.logo h1{
+    font-size: 22px;
+}
+
+.nav-links{
+    margin-top: 8px;
+    display: flex;
+    list-style: none;
+    gap: 2px;
+    padding: 12px 18px;
+    border-radius: 50px;
+    border: 2px solid #ffa229;
+    transition: 0.3s;
+}
+
+.nav-links:hover{
+    transform: translateY(3px);
+    box-shadow: 0 0 20px #ffa229;
+    padding: 14px 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+    color: #412402;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #a85f00;
+    font-size: 17px;
+    font: 500;
+    transform: translateY(3px);
+}
+
+.nav-links a.active-link {
+    color: #a85f00;
+    font-weight: 600;
+}
+
+
+
+.page-header{
+    padding: 28px 32px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}

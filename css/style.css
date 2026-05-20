@@ -76,6 +76,13 @@ body{
     transform: translateY(3px);
 }
 
+.nav-links a.active-link {
+    color: #a85f00;
+    font-weight: 600;
+}
+
+
+
 
 .hero{
     padding: 70px 32px 40px;
